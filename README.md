@@ -1,3 +1,3 @@
 # Algorithm practice
 
-all the algos are tested using jest.
+Fun coding challenges illustrates data structures and algos, all the algos are tested using jest.
