@@ -24,6 +24,7 @@ function moveZero(arr) {
         arr[nextAvailableIndex] = arr[i];
         arr[i] = temp;
       }
+      
       nextAvailableIndex += 1;
 
     }
