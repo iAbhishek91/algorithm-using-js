@@ -13,7 +13,7 @@ search: O(1)
 
 ## Collision
 
-when hash function outputs same hash for two different data. hash table are then extended using **link list** (or other ways) automatically.
+when hash function outputs same hash for two different data. hash table are then extended using **link list** (or other ways, refer collision resolution) automatically.
 
 Collision will effect performance, both for read and write.
 
