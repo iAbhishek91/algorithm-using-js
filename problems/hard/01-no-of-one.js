@@ -40,8 +40,8 @@ function no1InHundredsPlace(num) {
   return Math.ceil(num/100)*10 - removeNoOfOnes;
 }
 
-console.log(no1InHundredsPlace(13));
-console.log(no1InOnesPlace(13));
+// console.log(no1InHundredsPlace(13));
+// console.log(no1InOnesPlace(13));
 
 module.exports = no1InOnesPlace;
 

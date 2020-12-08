@@ -11,8 +11,8 @@ function twoSum(arr, target) {
   const result = [];
 
   for(let i = 0; i < arr.length ; i += 1) {
-
-    let diff = Math.abs(arr[i] - target);
+  
+    let diff = target - arr[i];
     let secondIndex = arr.indexOf(diff, i+1);
 
     if (secondIndex !== -1) {
@@ -24,6 +24,5 @@ function twoSum(arr, target) {
 
   return result;
 }
-
 
 module.exports = twoSum;

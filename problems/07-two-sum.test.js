@@ -17,6 +17,7 @@ describe('positive test', () => {
     {arr1: [3,2,4], target: 6, expected: [1, 2]},
     {arr1: [3,3], target: 6, expected: [0, 1]},
     {arr1: [2,3,4], target: 7, expected: [1, 2]},
+    {arr1: [-1,-2,-3,-4,-5], target: -8, expected: [2, 4]},
 
   ].forEach((e, i) => {
 
